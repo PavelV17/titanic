@@ -1,0 +1,2 @@
+model,scoring,cv_folds,score_mean,score_std
+Soft Voting,accuracy,5,0.8451007469713139,0.020402134136453514

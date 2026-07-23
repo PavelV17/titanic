@@ -1,0 +1,15 @@
+model,architecture,batchnorm,dropout,accuracy,optimizer,scheduler,activation,learning_rate,batch_size,epochs
+DNN-7,128-64,True,0.5,0.826815664768219,Adam,CosineAnnealingLR,,,,
+DNN-11,128-64,True,0.3,0.826815664768219,Adam,CosineAnnealingLR,silu,,,
+DNN-12,128-64,True,0.3,0.826815664768219,Adam,CosineAnnealingLR,silu,0.0005,32.0,100.0
+DNN-8,64-32,True,0.3,0.8212290406227112,Adam,CosineAnnealingLR,relu,,,
+DNN-5,128-64,True,0.3,0.8156424760818481,SGD,CosineAnnealingLR,,,,
+DNN-4,128-64,True,0.3,0.8156424760818481,Adam,CosineAnnealingLR,,,,
+DNN-1,64,False,0.0,0.8100558519363403,,,,,,
+DNN-10,128-64,True,0.3,0.8100558519363403,Adam,CosineAnnealingLR,leaky_relu,,,
+DNN-14,128-64,True,0.3,0.8100558519363403,Adam,CosineAnnealingLR,silu,0.001,32.0,150.0
+DNN-13,128-64,True,0.3,0.8044692873954773,Adam,CosineAnnealingLR,silu,0.001,16.0,100.0
+DNN-3,128-64,True,0.3,0.7988826632499695,,,,,,
+DNN-9,256-128,True,0.3,0.7932960987091064,Adam,CosineAnnealingLR,relu,,,
+DNN-2,128-64,False,0.0,0.7821229100227356,,,,,,
+DNN-6,128-64,True,0.1,0.7765362858772278,Adam,CosineAnnealingLR,,,,
